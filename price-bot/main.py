@@ -54,7 +54,7 @@ def get_info():
     baseTokenPrice = cg.get_price(ids='olympus', vs_currencies='usd')['olympus']['usd']
     print(baseTokenPrice)
 
-    lobis_price = lp_contract_info(sushi_address='0x2734F4A846D1127f4B5D3BAb261FaCfe51dF1D9a', basePrice=baseTokenPrice)
+    lobis_price = lp_contract_info(sushi_address='0x193008EAAde86658Df8237A436261e23e3BcBbAa', basePrice=baseTokenPrice)
     supply = lobis_info()
 
     return(lobis_price, supply)
